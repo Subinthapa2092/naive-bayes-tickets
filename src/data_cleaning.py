@@ -150,7 +150,7 @@ def clean_tickets(df: pd.DataFrame) -> pd.DataFrame:
 
 
 # Save
-def save_clean_data(df: pd.DataFrame, output_path: str = "data/cleaned_tickets.csv") -> None:
+def save_clean_data(df: pd.DataFrame, output_path: str = "../data/processed/cleaned_tickets.csv") -> None:
     """Save cleaned dataframe to CSV and verify the write."""
     path = Path(output_path)
     path.parent.mkdir(parents=True, exist_ok=True)
