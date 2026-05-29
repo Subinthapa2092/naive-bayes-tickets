@@ -6,7 +6,7 @@ from scipy.sparse import hstack, save_npz, load_npz
 
 BASE_DIR      = r'C:\Users\bibek\naive-bayes-tickets'
 PROCESSED_PATH = os.path.join(BASE_DIR, 'data', 'processed', 'tickets_nb_ready.csv')
-FIGURES_DIR = os.path.join(BASE_DIR, 'figures')
+FIGURES_DIR = os.path.join(BASE_DIR, 'reports','figures')
 SRC_DIR     = os.path.join(BASE_DIR, 'src')
 OUTPUT_DIR     = os.path.join(BASE_DIR, 'data', 'features')
 
